@@ -1,0 +1,14 @@
+  name: BakaAPI
+  main: top.wemc.top.wemc.bakaapi.Main
+  version: '$version'
+  prefix: BakaAPI⑨
+  api-version: 1.16
+  authors:
+    - WYH2004
+  website: https://www.wemc.top
+  softdepend:
+    - PlaceholderAPI
+    - Vault
+  commands:
+      baka:
+          description: BakaAPI 主指令
