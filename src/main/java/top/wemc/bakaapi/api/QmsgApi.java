@@ -19,7 +19,7 @@ public class QmsgApi {
      * @return boolean
      * @throws IOException
      */
-    public static boolean sendMassage(String msg,String ...qq) throws IOException {
+    public static boolean sendMessage(String msg,String ...qq) throws IOException {
         if (PushConfig.qmsgEnabled){
             String url = "https://qmsg.zendee.cn/send/" + PushConfig.qmsgToken + "?msg=" + msg;
             if(qq.length > 0){
@@ -38,7 +38,7 @@ public class QmsgApi {
      * @return boolean
      * @throws IOException
      */
-    public static boolean sendGroupMassage(String msg,String ...qq) throws IOException {
+    public static boolean sendGroupMessage(String msg,String ...qq) throws IOException {
         if (PushConfig.qmsgEnabled){
             String url = "https://qmsg.zendee.cn/group/" + PushConfig.qmsgToken + "?msg=" + msg;
             if(qq.length > 0){

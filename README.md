@@ -13,13 +13,13 @@ import top.wemc.bakaapi.api.QmsgApi;
 public class Main() {
     public static void main(String[] args) {
         // 发送私聊消息
-        QmsgApi.sendMassage("消息内容");
+        QmsgApi.sendMessage("消息内容");
         // 指定QQ发送私聊消息(多个QQ号用 , 分开)
-        QmsgApi.sendMassage("消息内容","QQ号1,QQ号2");
+        QmsgApi.sendMessage("消息内容","QQ号1,QQ号2");
         // 发送群聊消息
-        QmsgApi.sendGroupMassage("消息内容");
+        QmsgApi.sendGroupMessage("消息内容");
         // 发送群聊消息，并@QQ(多个QQ号用 , 分开,-1为@全体成员)
-        QmsgApi.sendGroupMassage("消息内容","QQ号1,QQ号2");
+        QmsgApi.sendGroupMessage("消息内容","QQ号1,QQ号2");
     }
 }
 ```
