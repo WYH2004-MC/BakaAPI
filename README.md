@@ -1,7 +1,7 @@
 # BakaAPI
 
 ## 安装&使用
-### 前往[Actions](https://github.com/VIPWYH2004/BakaAPI/actions)下载最后编译的版本,安装到spigot中,让你的插件调用它。
+### 前往[Actions](https://github.com/WYH2004-MC/BakaAPI/actions)下载最后编译的版本,安装到spigot中,让你的插件调用它。
 
 ## 功能
 ### Qmsg酱
